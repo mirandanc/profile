@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+  background-color: rgb(180, 180, 180);
+}
+
+/* .title_box {
+  font-family: 'Koulen', cursive;
+  color: rgb(25, 25, 25);
+  background-color: rgb(220, 220, 220);
+  padding: 10px;
+  text-align: center;
+  margin: 18px auto;
+  box-shadow: 2px 2px 24px rgb(50, 50, 50);
+  border-radius: 10px;
+  width: 80%;
+} */
+
+.box_white{
+  font-family: 'Koulen', cursive;
+  color: rgb(25, 25, 25);
+  background-color: rgb(220, 220, 220);
+  padding: 10px;
+  text-align: center;
+  margin: 18px auto;
+  box-shadow: 2px 2px 24px rgb(50, 50, 50);
+  border-radius: 10px;
+  width: 80%;
+}
+
+.img_circle{
+  width: 280px;
+  height: 280px;
+  border-radius: 30%;
+}
+
+#main_link {
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+#main_link:hover {
+  background-color: rgb(68, 4, 65);
+  color: rgb(168, 163, 163);
+  padding: 12px;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.xtra-padding {
+  padding-bottom: 20px;
+}
+
+.options-list-item {
+  display: inline-block;
+  font-size: 40px;
+  color:rgb(112, 111, 111);
+  padding: 15px;
+}
+
+.options-list-link {
+  color:rgb(112, 111, 111);
+}
+
+.options-list-link:hover {
+  color: rgb(68, 4, 65);
+}
+
+.list-inline:hover .icon {
+  color: red;
+}
+
+
+/* THIS IS TO MAKE THE PAGE REACTIVE WITH THE SCREEN SIZE */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+     width: 700px;
+   }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
